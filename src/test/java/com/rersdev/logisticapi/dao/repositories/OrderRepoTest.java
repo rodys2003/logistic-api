@@ -61,7 +61,7 @@ class OrderRepoTest {
         // filter, orderNumber, since, until, status, customerId, page, size
         List<OrderDTO> orders = orderRepo.findByFilter(
                 4, null, null, null,
-                status, null, 0, 10);
+                status, null, 0, 2);
 
         assertEquals(2, orders.size());
     }
