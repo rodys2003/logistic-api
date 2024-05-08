@@ -24,7 +24,7 @@ public class Order {
     @Column(name = "order_date", nullable = false)
     private LocalDateTime orderDate;
 
-    @Column(name = "delivery_order", nullable = false)
+    @Column(name = "delivery_date", nullable = false)
     private LocalDateTime deliveryDate;
 
     @Column(nullable = false)
